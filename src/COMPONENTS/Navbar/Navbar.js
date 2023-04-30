@@ -65,9 +65,12 @@ const Navbar = () => {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Fresh Vegetables</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Fresh Fruits</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">House Cleaning</Dropdown.Item>
+            <Dropdown.Item href="#/action-1">Fruits & Vegetables</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Bakery, Cakes & Dairy</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">Eggs, Meat & Fish</Dropdown.Item>
+            <Dropdown.Item href="#/action-4">Oil & Spices</Dropdown.Item>
+            <Dropdown.Item href="#/action-5">Foodgrains</Dropdown.Item>
+            <Dropdown.Item href="#/action-6">Beauty & Hygiene</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         <a href='#'>About Us</a>

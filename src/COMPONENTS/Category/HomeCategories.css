@@ -1,0 +1,79 @@
+.homecategories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0px;
+    color: white;
+}
+
+.homecategories .container{
+    width: 300px;
+    height: 180px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 5%;
+    justify-content: space-around;
+    margin-bottom: 10px
+}
+
+.homecategories .container img{
+    width: 50%;
+    object-fit: cover;
+}
+
+.homecategories .container .content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homecategories .container .content h1{
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.homecategories .container .content p{
+    font-size: 20px;
+    font-weight: 200;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    margin: 0;
+}
+
+.homecategories .container:nth-child(1){
+    background-color: #1cd894;
+    color: rgb(255, 255, 255)
+}
+
+.homecategories .container:nth-child(2){
+    background-color: #387cd4;
+    color: rgb(253, 251, 251)
+}
+
+.homecategories .container:nth-child(3){
+    background-color: #d84343;
+    color: rgb(255, 252, 252)
+}
+
+.homecategories .container:nth-child(4){
+    background-color: #f2f757f6;
+    color: rgb(28, 27, 27)
+}
+
+.homecategories .container:nth-child(5){
+    background-color: #cff1e2;
+    color: rgb(44, 43, 43)
+}
+
+.homecategories .container:nth-child(6){
+    background-color: #bd8aed;
+    color: rgb(24, 24, 24)
+}
