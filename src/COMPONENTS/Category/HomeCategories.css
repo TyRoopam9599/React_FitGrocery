@@ -20,8 +20,9 @@
     margin-bottom: 10px
 }
 
-.homecategories .container .s2{
-    
+.homecategories .container .content .p{
+    display: flex;
+    flex-direction: column;
 }
 
 .homecategories .container img{
