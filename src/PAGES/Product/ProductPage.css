@@ -1,0 +1,119 @@
+.productpage .pc1{
+    padding-top: 5%;   
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.productpage .pc1 .c11{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.productpage .pc1 .c11 .imgset{
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+.productpage .pc1 .c11 .imgset img{
+    width: 100%;
+    cursor: pointer;
+    aspect-ratio: 1/1;
+}
+
+.productpage .pc1 .c11 .imgset .active{
+    border: 3px solid var(--col1);
+    width: 95%;
+    border-radius: 10px;
+}
+
+.productpage .pc1 .c11 .imgbig{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1/1;
+}
+
+.productpage .pc1 .c12{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+.productpage .pc1 .c12 .c121{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.productpage .pc1 .c12 .price{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--col1);
+    display: flex;
+    align-items: center;
+}
+
+.productpage .pc1 .c12 .price span{
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.productpage .pc1 .c12 .incrdecr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 150px;
+    border: 1px solid var(--col1);
+    border-radius: 5px;
+}
+
+.productpage .pc1 .c12 .incrdecr button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.productpage .pc1 .c12 .incrdecr #sub{
+    background-color: red;
+}
+
+.productpage .pc1 .c12 .incrdecr #add{
+    background-color: var(--col1);
+}
+
+.productpage .pc1 .c12 .incrdecr p{
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.productpage .btncount{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.productpage .btncount button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: var(--col1);
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 10px;
+}

@@ -3,7 +3,6 @@ import './Navbar.css';
 import logo from '../../ASSETS/logo.png';
 import Dropdown from 'react-bootstrap/Dropdown';
 
-
 const Navbar = () => {
   const [cartquantity, setcartquantity] = useState(0);
   const [show1, setShow1] = useState(false);
